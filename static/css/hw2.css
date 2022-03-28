@@ -1,0 +1,40 @@
+h1 {
+    font-family: 'Montserrat';
+    margin: 5px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .title {
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .gradient-button {
+    text-decoration: none;
+    display: inline-block;
+    color: gray;
+    padding: 20px 80px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, rgb(65, 33, 33) 0%, #170449 51%, #FFF 100%);
+    background-size: 200% auto;
+    transition: .5s;
+  }
+  .gradient-button:hover {
+    background-position: right center;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.5;
+  }
